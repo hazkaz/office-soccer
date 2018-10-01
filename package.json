@@ -2,6 +2,7 @@
   "name": "mini-soccer",
   "version": "1.0.0",
   "description": "2d local multiplayer soccer",
+  "repository": "https://github.com/hazkaz/office-soccer/tree/master",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,5 +17,10 @@
   "dependencies": {
     "express": "^4.16.3",
     "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
   }
 }
